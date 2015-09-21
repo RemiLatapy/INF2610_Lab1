@@ -1,0 +1,104 @@
+execve("./banque", ["./banque", "--Lib", "fork"], [/* 73 vars */]) = 0
+brk(0)                                  = 0x1388000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f244951c000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/local/cours/INF2610/lttv/lib/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF2610/lttv/lib/tls/x86_64", 0x7fff446254c0) = -1 ENOENT (No such file or directory)
+open("/usr/local/cours/INF2610/lttv/lib/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF2610/lttv/lib/tls", 0x7fff446254c0) = -1 ENOENT (No such file or directory)
+open("/usr/local/cours/INF2610/lttv/lib/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF2610/lttv/lib/x86_64", 0x7fff446254c0) = -1 ENOENT (No such file or directory)
+open("/usr/local/cours/INF2610/lttv/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF2610/lttv/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib64/mpich/lib/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/mpich/lib/tls/x86_64", 0x7fff446254c0) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/mpich/lib/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/mpich/lib/tls", 0x7fff446254c0) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/mpich/lib/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/mpich/lib/x86_64", 0x7fff446254c0) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/mpich/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/mpich/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=345439, ...}) = 0
+mmap(NULL, 345439, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f24494c7000
+close(3)                                = 0
+open("/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@`\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=140952, ...}) = 0
+mmap(NULL, 2208944, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f24490e1000
+mprotect(0x7f24490f8000, 2093056, PROT_NONE) = 0
+mmap(0x7f24492f7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f24492f7000
+mmap(0x7f24492f9000, 13488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f24492f9000
+close(3)                                = 0
+open("/usr/local/cours/INF2610/lttv/lib/libpth.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/mpich/lib/libpth.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libpth.so.20", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220H\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=82328, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f24494c6000
+mmap(NULL, 2186832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2448ecb000
+mprotect(0x7f2448ede000, 2093056, PROT_NONE) = 0
+mmap(0x7f24490dd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0x7f24490dd000
+mmap(0x7f24490df000, 7760, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f24490df000
+close(3)                                = 0
+open("/usr/local/cours/INF2610/lttv/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/mpich/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=19344, ...}) = 0
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2448cc7000
+mprotect(0x7f2448cca000, 2093056, PROT_NONE) = 0
+mmap(0x7f2448ec9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f2448ec9000
+close(3)                                = 0
+open("/usr/local/cours/INF2610/lttv/lib/libnsl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/mpich/lib/libnsl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240@\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=113232, ...}) = 0
+mmap(NULL, 2198136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2448aae000
+mprotect(0x7f2448ac4000, 2093056, PROT_NONE) = 0
+mmap(0x7f2448cc3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f2448cc3000
+mmap(0x7f2448cc5000, 6776, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2448cc5000
+close(3)                                = 0
+open("/usr/local/cours/INF2610/lttv/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/mpich/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \10\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2095280, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f24494c5000
+mmap(NULL, 3930656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f24486ee000
+mprotect(0x7f24488a5000, 2093056, PROT_NONE) = 0
+mmap(0x7f2448aa4000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b6000) = 0x7f2448aa4000
+mmap(0x7f2448aaa000, 14880, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2448aaa000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f24494c4000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f24494c3000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f24494c2000
+arch_prctl(ARCH_SET_FS, 0x7f24494c3700) = 0
+mprotect(0x7f2448aa4000, 16384, PROT_READ) = 0
+mprotect(0x7f2448cc3000, 4096, PROT_READ) = 0
+mprotect(0x7f2448ec9000, 4096, PROT_READ) = 0
+mprotect(0x7f24490dd000, 4096, PROT_READ) = 0
+mprotect(0x7f24492f7000, 4096, PROT_READ) = 0
+mprotect(0x601000, 4096, PROT_READ)     = 0
+mprotect(0x7f244951d000, 4096, PROT_READ) = 0
+munmap(0x7f24494c7000, 345439)          = 0
+set_tid_address(0x7f24494c39d0)         = 12655
+set_robust_list(0x7f24494c39e0, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f24490e6b20, [], SA_RESTORER|SA_SIGINFO, 0x7f24490f1430}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f24490e6bb0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f24490f1430}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(0)                                  = 0x1388000
+brk(0x13a9000)                          = 0x13a9000
+brk(0)                                  = 0x13a9000
+write(2, "./banque: unrecognized option '-"..., 38) = 38
+write(2, "Usage: banque [OPTIONS] [COMMAND"..., 34) = 34
+write(2, "Execute un programme a un emplac"..., 54) = 54
+write(2, "\nOptions:\n\n", 11)          = 11
+write(2, "--lib LIB        type de fil d'e"..., 86) = 86
+write(2, "--amount AMOUNT  montant de depa"..., 35) = 35
+write(2, "--repeat NR      nombre de trans"..., 40) = 40
+write(2, "--help           ce message d'ai"..., 35) = 35
+exit_group(1)                           = ?
++++ exited with 1 +++
