@@ -29,13 +29,11 @@ int main(int argc, char **argv) {
 
 	increment_rank();
 	whoami("chaine");
+        
+        char *arg;
+        asprintf(&arg, "%d", n);
+        
+        execlp("foo", "foo", arg, NULL);
 
-	// Exécution de n cycles foo bar baz
-	int i;
-	for (i = 0; i < n; i++) {
-            execlp("foo", "foo", NULL);
-            execlp("bar", "bar", NULL);
-            execlp("baz", "baz", NULL);
-	}
 	return 0;
 }
