@@ -26,9 +26,6 @@ int main(int argc, char **argv) {
 
 	// ajoute le répertoire courant dans $PATH
 	add_pwd_to_path(argv[0]);
-
-	increment_rank();
-	whoami("chaine");
         
         char *arg;
         asprintf(&arg, "%d", n);
